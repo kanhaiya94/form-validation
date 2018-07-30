@@ -27,6 +27,7 @@ $(document).ready(function() {
       else if (ValidPass ==1 && email.length >1){
         // $('#message').after('<span class="error">Sucessfully Submitted</span>');
         alert('Sucessfully LogIn');
+        window.location.href="/home/enbake/Desktop/Assign-2/ch.html";
         
       }
     }

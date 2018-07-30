@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>checkbox</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="check.js"></script>
+
+<style type="text/css">
+    body {
+        background-color: #6362bb;
+    }
+    .box{
+        color: #fff;
+        padding: 20px;
+        display: none;
+        margin-top: 20px;
+    }
+</style>
+</head>
+
+<body>
+    <center>
+        <h3>Please click on checkbox to see their email id: </h3>
+        <div>
+            <label><input type="checkbox" name="user" value="user1"> user1@gmail.com</label><br>
+            <label><input type="checkbox" name="user" value="user2"> user2@gmail.com</label><br>
+            <label><input type="checkbox" name="user" value="user3"> user3@gmail.com</label><br>
+    
+            <div class="box user1">You selected <strong>user1@gmail.com</strong></div>
+            <div class="box user2">You selected <strong>User2@gmail.com</strong></div>
+            <div class="box user3">You selected <strong>User3@gmail.com</strong></div>    
+        </div>
+    </center>
+</body>
+</html>                
