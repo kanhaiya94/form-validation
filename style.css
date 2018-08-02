@@ -1,0 +1,47 @@
+body
+{
+  background-color:slateblue; 
+}
+.form-control
+{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 7px;
+}
+.h1
+{
+  text-align:center;
+  color: white;
+}
+
+span
+{
+  color: white;
+  margin-top: 25px; 
+  margin-left: 35px;
+}
+
+a
+{
+  color:white;
+}
+form
+{
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.error {
+  /*background-color: red;*/
+  color: red;
+  margin-left: 5px;
+  height: 20px;
+  width: 30px;
+}
+.formstyle
+{
+  background-color: white;
+  border-radius: 7px;
+}
